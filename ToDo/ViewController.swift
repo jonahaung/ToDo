@@ -13,7 +13,7 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var tableView: UITableView!
     
-    private var tasks = [Task]() // This is empty array in Swift
+    private var tasks = [Task]()
     
     private var currentCreatingTaskTitle: String?
     private var currentCreatingTaskDetails: String?
@@ -159,8 +159,9 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate {
         }
         
         let task = tasks[indexPath.row]
-        cell.textLabel?.text = task.title
-        cell.detailTextLabel?.text = task.detils
+        // This textLabel and detailTextLabel are built in... but we won't use them anymore
+        // to make it better, we send task model to cell
+        cell.configure(task)
         
         return cell
     }
