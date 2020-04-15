@@ -12,7 +12,9 @@ import CoreData
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
+    // Because we want to access this persistentContainer from AppDelegate. So we create Singleton
+    
+    static var shared: AppDelegate? { return UIApplication.shared.delegate as? AppDelegate }
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.

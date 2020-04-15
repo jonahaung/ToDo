@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4781F472244789FB00F18F0E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4781F471244789FB00F18F0E /* Extensions.swift */; };
+		4781F47424478BF000F18F0E /* DatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4781F47324478BF000F18F0E /* DatePickerViewController.swift */; };
 		47D41942244159B1005FCE44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D41941244159B1005FCE44 /* AppDelegate.swift */; };
 		47D41944244159B1005FCE44 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D41943244159B1005FCE44 /* SceneDelegate.swift */; };
 		47D41946244159B1005FCE44 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D41945244159B1005FCE44 /* ViewController.swift */; };
@@ -14,9 +16,12 @@
 		47D4194C244159B1005FCE44 /* ToDo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 47D4194A244159B1005FCE44 /* ToDo.xcdatamodeld */; };
 		47D4194E244159B3005FCE44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47D4194D244159B3005FCE44 /* Assets.xcassets */; };
 		47D41951244159B3005FCE44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47D4194F244159B3005FCE44 /* LaunchScreen.storyboard */; };
+		47D4195B24416577005FCE44 /* ToDoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D4195A24416577005FCE44 /* ToDoTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4781F471244789FB00F18F0E /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		4781F47324478BF000F18F0E /* DatePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerViewController.swift; sourceTree = "<group>"; };
 		47D4193E244159B1005FCE44 /* ToDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47D41941244159B1005FCE44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		47D41943244159B1005FCE44 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +31,7 @@
 		47D4194D244159B3005FCE44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		47D41950244159B3005FCE44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		47D41952244159B3005FCE44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47D4195A24416577005FCE44 /* ToDoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +67,9 @@
 				47D41941244159B1005FCE44 /* AppDelegate.swift */,
 				47D41943244159B1005FCE44 /* SceneDelegate.swift */,
 				47D41945244159B1005FCE44 /* ViewController.swift */,
+				4781F47324478BF000F18F0E /* DatePickerViewController.swift */,
+				4781F471244789FB00F18F0E /* Extensions.swift */,
+				47D4195A24416577005FCE44 /* ToDoTableViewCell.swift */,
 				47D41947244159B1005FCE44 /* Main.storyboard */,
 				47D4194D244159B3005FCE44 /* Assets.xcassets */,
 				47D4194F244159B3005FCE44 /* LaunchScreen.storyboard */,
@@ -142,9 +151,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				47D41946244159B1005FCE44 /* ViewController.swift in Sources */,
+				4781F472244789FB00F18F0E /* Extensions.swift in Sources */,
+				4781F47424478BF000F18F0E /* DatePickerViewController.swift in Sources */,
 				47D41942244159B1005FCE44 /* AppDelegate.swift in Sources */,
 				47D41944244159B1005FCE44 /* SceneDelegate.swift in Sources */,
 				47D4194C244159B1005FCE44 /* ToDo.xcdatamodeld in Sources */,
+				47D4195B24416577005FCE44 /* ToDoTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
